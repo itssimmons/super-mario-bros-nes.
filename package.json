@@ -1,22 +1,18 @@
 {
-	"name": "supermario",
-	"version": "1.0.0",
+	"name": "Super Mario Bros.",
+	"version": "0.0.1",
 	"description": "",
-	"main": "index.js",
+	"main": "index.ts",
 	"scripts": {
-		"start": "parcel src/index.html -p 8000",
+		"serve": "parcel src/index.html -p 8000",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"kaboom": "^2000.0.0-beta.21"
 	},
 	"devDependencies": {
-		"typescript": "^4.4.3"
-	},
-	"alias": {
-		"kaboom": "./node_modules/kaboom/dist/kaboom.mjs"
+		"typescript": "5.5.2"
 	}
 }

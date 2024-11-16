@@ -2,10 +2,24 @@
   "compilerOptions": {
     "target": "esnext",
     "module": "commonjs",
+    "strict": true,
+    "skipLibCheck": true,
     "removeComments": true,
     "esModuleInterop": true,
+    "isolatedModules": true,
+    "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
-    "strict": true,
-    "skipLibCheck": true
-  }
+    "baseUrl": ".",
+    "paths": {
+      "~/*": [ "src/*" ],
+      "~Assets/*": [ "Assets/*" ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.d.ts"
+  ],
+  "exclude": [
+    "node_modules/"
+  ]
 }

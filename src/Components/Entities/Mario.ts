@@ -11,4 +11,10 @@ class Mario
 
 }
 
+interface Mario
+{
+	sayHello(n: string): void
+}
+
+
 export default Mario

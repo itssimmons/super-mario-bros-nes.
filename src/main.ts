@@ -1,15 +1,9 @@
-import Mario from "./Components/Mario"
+import Game from "./Core/Game";
 
 function main()
 {
-	const c = document.querySelector('#gameplay') as HTMLCanvasElement,
-		ctx = c.getContext('2d')
-
-	c.width = window.innerWidth
-	c.height = window.innerHeight
-
-	const m = new Mario()
-	m.sayHello('Sandra 😀')
+	const game = new Game()
+	game.start()
 }
 
-document.addEventListener('DOMContentLoaded', main)
+window.onload = main

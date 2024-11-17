@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "esnext",
-    "module": "commonjs",
+    "module": "es2020",
     "strict": true,
     "skipLibCheck": true,
     "removeComments": true,
@@ -12,8 +12,16 @@
     "baseUrl": ".",
     "paths": {
       "~/*": [ "src/*" ],
-      "~Assets/*": [ "Assets/*" ]
-    }
+      "~Assets/*": [ "Assets/*" ],
+      "~Tools/*": [ "Tools/*" ]
+    },
+    "typeRoots": [
+      "./node_modules/@types",
+      "./src/Declarations"
+    ],
+    "types": [
+      "node"
+    ]
   },
   "include": [
     "**/*.ts",

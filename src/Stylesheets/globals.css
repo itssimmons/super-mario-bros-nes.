@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	display: grid;
+	place-items: center;
+
+	width: 100%;
+	min-height: 100vh;
+
+	font-family: system-ui, sans-serif;
+	background: #4880e9;
+	overflow: hidden;
+}
+
+@font-face {
+	font-family: "8BitFont";
+	src: url("/Assets/Fonts/Primary/super-mario-bros-nes.ttf") format(truetype);
+	font-display: inherit;
+	font-weight: 600;
+}

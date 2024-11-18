@@ -17,6 +17,9 @@
 		"Nes",
 		"Clone"
 	],
+	"engines": {
+		"node": ">=20"
+	},
 	"browserslist": [
 		"defaults",
 		">0.3% and not dead"

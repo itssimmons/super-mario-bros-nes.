@@ -17,11 +17,8 @@
     },
     "typeRoots": [
       "./node_modules/@types",
-      "./src/Declarations"
+      "Declarations"
     ],
-    "types": [
-      "node"
-    ]
   },
   "include": [
     "**/*.ts",

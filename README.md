@@ -1,2 +1,2 @@
 # Super Mario Bros.
-yes, in typescript
+yes, in typescript and yes, using default canvas
